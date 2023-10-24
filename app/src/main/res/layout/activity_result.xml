@@ -30,7 +30,7 @@
         android:layout_margin="8dp"
         android:text="Classificação: Normal"
         android:textAlignment="center"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="Classificação: Normal"   />
@@ -41,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:text="Veja abaixo a tabela IMC:" />
+        android:text="Veja abaixo tabela completa:" />
 
     <TextView
         android:layout_marginVertical="5dp"
@@ -76,7 +76,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:text="Maior que 40,0 - Obesidade Grave" />
+        android:text="Maior que 40,0 - Obesidade grave" />
 
 
 
