@@ -5,9 +5,8 @@ Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros pass
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-![Screenshot_20231025_134207](https://github.com/afoliveira111/CalculadoraIMC/assets/132627886/cb0525a5-bb12-4ca6-aa95-5bbd78e76c40)
-![Screenshot_20231025_131334](https://github.com/afoliveira111/CalculadoraIMC/assets/132627886/14e0641c-194c-412c-95a7-e3803eefc61a)
-![Screenshot_20231025_131334](https://github.com/afoliveira111/CalculadoraIMC/assets/132627886/7c15791f-a0e5-46b6-856b-3136966a82c7)
+
+
 
 
 
