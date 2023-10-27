@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="0dp"
     tools:context=".MainActivity" >
 
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_marginTop="0dp"
-        android:background="#2F492C" />
+        android:layout_height="90dp"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/white"
+        app:title="Seu IMC" />
 
 
     <EditText
@@ -21,9 +22,9 @@
         android:layout_height="wrap_content"
         android:hint="Digite seu peso:"
         android:inputType="numberDecimal"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="32dp"
         android:backgroundTint="@color/black"
-        android:layout_marginVertical="80dp"
+        android:layout_marginVertical="100dp"
         android:textColorHint="@color/black"
         android:maxLength="6" />
 
@@ -33,7 +34,7 @@
         android:id="@+id/edittext_altura"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="120dp"
+        android:layout_marginVertical="140dp"
         android:layout_below="@+id/edittext_peso"
         android:textColorHint="@color/black"
         android:layout_marginTop="25dp"
@@ -43,18 +44,6 @@
         android:maxLength="6" />
 
 
-    <ImageView
-        android:id="@+id/image"
-        android:layout_width="300dp"
-        android:layout_height="280dp"
-        android:layout_gravity="bottom"
-        android:layout_marginVertical="150dp"
-        android:layout_marginStart="@android:dimen/app_icon_size"
-        android:layout_marginTop="@android:dimen/app_icon_size"
-        android:layout_marginEnd="@android:dimen/app_icon_size"
-        android:layout_marginBottom="@android:dimen/app_icon_size"
-        android:src="@drawable/balance2" />
-
     <Button
         android:id="@+id/btnCalcular"
         android:layout_width="match_parent"
@@ -63,6 +52,20 @@
         android:background="#2F492C"
         android:textColor="@color/white"
         android:text="Calcular" />
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="?attr/iconSize"
+        android:layout_height="280dp"
+        android:layout_marginVertical="290dp"
+        android:layout_marginStart="@android:dimen/app_icon_size"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:layout_marginEnd="@android:dimen/app_icon_size"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        android:src="@drawable/balance2" />
+
+
 
 
 
