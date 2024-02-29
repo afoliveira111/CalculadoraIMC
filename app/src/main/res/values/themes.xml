@@ -1,20 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.MeuPrimeiroProjeto" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">#2F492C</item>
-        <item name="colorPrimaryVariant">@color/material_dynamic_primary50</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">#2F492C</item>
-        <!-- Customize your theme here. -->
+    <style name="Base.Theme.Calculadoraimc" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primary_400</item>
+        <item name="android:statusBarColor">@color/primary_900</item>
     </style>
 
-    <style name="Theme.MeuPrimeiroProjeto" parent="Base.Theme.MeuPrimeiroProjeto" />
+    <style name="Theme.Calculadoraimc" parent="Base.Theme.Calculadoraimc" />
 </resources>
