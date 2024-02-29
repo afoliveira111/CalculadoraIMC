@@ -1,11 +1,13 @@
 # Calculadora IMC
 Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros passos com desenvolvimento Android. Eu participei do desafio 10D na comunidade DevSpace.
+Com esta calculadora de IMC, você pode calcular seu índice de massa corporal para encontrar seu peso ideal.
 
 
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
 
+<img src="/result/IMG_1.png" width="260">&emsp;<img src="/result/IMG_2.png" width="260">&emsp;<img src="/result/IMG_3.png" width="260">
 
 
 ## Tecnologias
