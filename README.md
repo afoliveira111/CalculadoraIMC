@@ -21,7 +21,7 @@ Com esta calculadora de IMC, você pode calcular seu índice de massa corporal p
     - TextView
     - EditText
     - Button
-- Toast para display de mensagens
+- SnackBar para display de mensagens
 - Intent Explicita para abrir a segunda Activity
 - FindViewById para recuperar components de UI
 - String resource para concatenação de textos
